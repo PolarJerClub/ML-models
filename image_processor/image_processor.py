@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load an image
-image_path = 'image_processor/gorilla.png'  # Replace 'path_to_your_image.jpg' with the path to your image
+image_path = 'path_to_your_image.jpg'  # Replace 'path_to_your_image.jpg' with the path to your image
 image = cv2.imread(image_path)
 
 # Convert the image to grayscale
